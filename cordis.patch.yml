@@ -1,0 +1,8 @@
+# dsh-pwsh-cp
+#
+# Adds one host row that decorates the shell executor's argv. It does not
+# replace `pwsh-sandbox`: the sandbox implementation stays exactly as shipped,
+# so confinement (read-only / workspace-write) is unaffected.
+- insert:
+    - id: pwsh-cp
+      name: 'dsh-pwsh-cp'
