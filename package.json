@@ -1,6 +1,6 @@
 {
   "name": "dsh-pwsh-cp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pin every pwsh tool call to a UTF-8 console code page and Python UTF-8 mode",
   "type": "module",
   "license": "MIT",

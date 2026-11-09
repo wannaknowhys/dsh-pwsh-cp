@@ -36,13 +36,15 @@ chcp 65001 *> $null; $env:PYTHONUTF8='1'; $env:PYTHONIOENCODING='utf-8';
 
 ## 安装 / 移除
 
-```powershell
-# 安装：让插件管理器指向本目录
-plugin_manager install_bundle target = <本目录路径>
+```sh
+# 从 npm
+dsh plugin --profile desktop add dsh-pwsh-cp
 
-# 或使用 CLI
-dsh plugin --profile <profile> add link:<本目录路径>
+# 从源码
+dsh plugin --profile desktop add github:wannaknowhys/dsh-pwsh-cp
 
 # 移除
-dsh plugin --profile <profile> remove dsh-pwsh-cp
+dsh plugin --profile desktop remove dsh-pwsh-cp
 ```
+
+插件管理器接受同样的目标：`install_bundle target = dsh-pwsh-cp` 或本目录路径。

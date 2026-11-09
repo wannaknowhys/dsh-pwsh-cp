@@ -39,13 +39,16 @@ chcp 65001 *> $null; $env:PYTHONUTF8='1'; $env:PYTHONIOENCODING='utf-8';
 
 ## Install / remove
 
-```powershell
-# install: point the plugin manager at this directory
-plugin_manager install_bundle target = <path to this directory>
+```sh
+# from npm
+dsh plugin --profile desktop add dsh-pwsh-cp
 
-# or from the CLI
-dsh plugin --profile <profile> add link:<path to this directory>
+# from a checkout
+dsh plugin --profile desktop add github:wannaknowhys/dsh-pwsh-cp
 
 # remove
-dsh plugin --profile <profile> remove dsh-pwsh-cp
+dsh plugin --profile desktop remove dsh-pwsh-cp
 ```
+
+The plugin manager accepts the same specs: `install_bundle target = dsh-pwsh-cp`
+or the checkout directory.
