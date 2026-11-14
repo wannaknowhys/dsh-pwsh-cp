@@ -2,6 +2,8 @@
 
 # dsh-pwsh-cp
 
+[![npm version](https://img.shields.io/npm/v/dsh-pwsh-cp.svg)](https://www.npmjs.com/package/dsh-pwsh-cp) [![license](https://img.shields.io/npm/l/dsh-pwsh-cp.svg)](./LICENSE)
+
 适用于 Windows 的 DeepSeek Harness bundle。当 PowerShell 控制台以旧版 OEM 代码页
 启动时（例如简体中文系统的 936），它让每次 `pwsh` 工具调用都以：
 

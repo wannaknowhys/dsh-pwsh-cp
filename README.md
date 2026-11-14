@@ -2,6 +2,8 @@
 
 # dsh-pwsh-cp
 
+[![npm version](https://img.shields.io/npm/v/dsh-pwsh-cp.svg)](https://www.npmjs.com/package/dsh-pwsh-cp) [![license](https://img.shields.io/npm/l/dsh-pwsh-cp.svg)](./LICENSE)
+
 A DeepSeek Harness bundle for Windows hosts whose PowerShell console starts on
 a legacy OEM code page (936 on zh-CN, for example). It decorates the shell
 executor so every `pwsh` tool call begins with:
